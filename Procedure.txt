@@ -1,0 +1,15 @@
+PROCEDURE: -  
+
+1.	Connect the adruino with Node MCU and place it on the embedded system of the places where coupons need to be added in the system or deducted.
+
+2.	Upload the coupons_add on the Adruino which is placed for the coupon’s generation and addition.
+
+3.	Connect the Embedded system with same network as our model is connected with. The embedded system and model should be on the same network for working.
+
+4.	Whenever the user enters the system or scan his Id card the coupons are added in the database.  If the user is not present in the database then its RFID card value will be added and coupons will be generated. If the person is already present in the database, the coupons will increment.
+
+5.	Upload the coupons_deduct on the Adruino which is placed at the places on which the coupons are used and it the coupons of the specific person is deducted.
+
+6.	 Whenever the user scans his Id card the coupons are deducted from the database. If the total amount of coupons reached to zero the system will send the alarm that Coupons have reached zero and no more coupons is available for the person. If the total amount of coupons left is not zero then it will be deducted for the specific person.
+
+7.	We have also introduced the UI interface for the monitoring the system of the Coupons generated and deducted. Run micro.php on the local host (i.e. on network on which the adruino and the device are connected.). It will have the administrator access to monitor and manage the coupons system of the all the participants in an event.

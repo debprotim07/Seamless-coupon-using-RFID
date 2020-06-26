@@ -1,0 +1,9 @@
+HARDWARE REQUIREMENT – 
+1.	Micro controller - Adruino Uno
+2.	Wifi module chip - NodeMCU
+
+
+SOFTWARE REQUIRMENT –
+1.	Database – MYSQL
+2.	Server-side scripting language – PHP
+3.	User interface monitoring – HTML/CSS/JS 
